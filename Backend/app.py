@@ -1,3 +1,5 @@
+import requests
+from bs4 import BeautifulSoup
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from tensorflow.keras.models import load_model
@@ -9,6 +11,26 @@ app = Flask(__name__)
 CORS(app)
 model = load_model("dog_model.keras")
 class_names = dog_names()
+
+def format_breed_name(breed_name):
+    # Split the breed name into words and capitalize the first letter of each word
+    words = breed_name.split()
+    formatted_words = [word.capitalize() for word in words]
+    return "_".join(formatted_words)
+
+def scrape_dog_description(dog_name):
+    formatted_name = format_breed_name(dog_name)
+    url = f"https://en.wikipedia.org/wiki/{formatted_name}"
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        content = soup.find(id='mw-content-text')
+        paragraphs = content.find_all('p')
+        description = [p.get_text() for p in paragraphs]
+        return description
+    else:
+        return ["Description not found."]
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -28,11 +50,13 @@ def predict():
         prediction = model.predict(image[np.newaxis, ...])
         predicted_class = np.argmax(prediction)
         breed_name = class_names[predicted_class]
-
         breed_name_final = breed_name.split("-")[1]
+        breed_description = scrape_dog_description(breed_name_final)
         
-
-        return jsonify({"prediction": breed_name_final})
+        if breed_description[0] == "Description not found.":
+            breed_description = ["Description not found for this breed."]
+        
+        return jsonify({"prediction": breed_name, "description": breed_description})
     
     except Exception as e:
         return jsonify({"error": str(e)}), 400
