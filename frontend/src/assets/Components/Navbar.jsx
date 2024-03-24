@@ -21,11 +21,10 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-              <Link to="/login" className="text-customBlue hover:bg-blue-800 font-semibold">
-                Login
-              </Link>
+            <button className="bg-customButton text-customBlue font-semibold px-6 py-0 rounded-full transition duration-300 ease-in-out hover:shadow-lg">
+              Login
+            </button>
           </li>
-          {/* Add more navigation links as needed */}
         </ul>
       </nav>
     </div>

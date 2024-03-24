@@ -26,11 +26,27 @@ def scrape_dog_description(dog_name):
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
         content = soup.find(id='mw-content-text')
-        paragraphs = content.find_all('p')
-        description = [p.get_text() for p in paragraphs]
+        
+        description = []
+
+        appearance_heading = content.find('span', {'id': 'Appearance'})
+        temperament_heading = content.find('span', {'id': 'Temperament'})
+        lifespan_heading = content.find('span', {'id': 'Lifespan'})
+        cultural_significance_heading = content.find('span', {'id': 'Cultural_significance'})
+
+        if appearance_heading:
+            description.append(appearance_heading.find_next('p').get_text())
+        if temperament_heading:
+            description.append(temperament_heading.find_next('p').get_text())
+        if lifespan_heading:
+            description.append(lifespan_heading.find_next('p').get_text())
+        if cultural_significance_heading:
+            description.append(cultural_significance_heading.find_next('p').get_text())
+
         return description
     else:
         return ["Description not found."]
+
 
 @app.route("/predict", methods=["POST"])
 def predict():
