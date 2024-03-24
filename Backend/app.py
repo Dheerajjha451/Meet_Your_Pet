@@ -17,27 +17,25 @@ def format_breed_name(breed_name):
     formatted_words = [word.capitalize() for word in words]
     return "_".join(formatted_words)
 
+def format_breed_name(breed_name):
+    # Split the breed name into words and capitalize the first letter of each word
+    words = breed_name.split()
+    formatted_words = [word.capitalize() for word in words]
+    return "_".join(formatted_words)
+
 def scrape_dog_description(dog_name):
     formatted_name = format_breed_name(dog_name)
-    url = f"https://www.akc.org/dog-breeds/{formatted_name}"
+    url = f"https://en.wikipedia.org/wiki/{formatted_name}"
     response = requests.get(url)
-    
-    description = []
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
         content = soup.find(id='mw-content-text')
-
-       
-        sections = content.find_all('p')
-        for section in sections:
-            description.append(section.get_text())
-
-    if not description:
-        description = ["Description not found."]
-
-    return description
-
+        paragraphs = content.find_all('p')
+        description = [p.get_text() for p in paragraphs]
+        return description
+    else:
+        return ["Description not found."]
 
 @app.route("/predict", methods=["POST"])
 def predict():
