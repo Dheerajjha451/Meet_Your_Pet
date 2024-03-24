@@ -13,39 +13,30 @@ model = load_model("dog_model.keras")
 class_names = dog_names()
 
 def format_breed_name(breed_name):
-    # Split the breed name into words and capitalize the first letter of each word
     words = breed_name.split()
     formatted_words = [word.capitalize() for word in words]
     return "_".join(formatted_words)
 
 def scrape_dog_description(dog_name):
     formatted_name = format_breed_name(dog_name)
-    url = f"https://en.wikipedia.org/wiki/{formatted_name}"
+    url = f"https://www.akc.org/dog-breeds/{formatted_name}"
     response = requests.get(url)
     
+    description = []
+
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
         content = soup.find(id='mw-content-text')
-        
-        description = []
 
-        appearance_heading = content.find('span', {'id': 'Appearance'})
-        temperament_heading = content.find('span', {'id': 'Temperament'})
-        lifespan_heading = content.find('span', {'id': 'Lifespan'})
-        cultural_significance_heading = content.find('span', {'id': 'Cultural_significance'})
+       
+        sections = content.find_all('p')
+        for section in sections:
+            description.append(section.get_text())
 
-        if appearance_heading:
-            description.append(appearance_heading.find_next('p').get_text())
-        if temperament_heading:
-            description.append(temperament_heading.find_next('p').get_text())
-        if lifespan_heading:
-            description.append(lifespan_heading.find_next('p').get_text())
-        if cultural_significance_heading:
-            description.append(cultural_significance_heading.find_next('p').get_text())
+    if not description:
+        description = ["Description not found."]
 
-        return description
-    else:
-        return ["Description not found."]
+    return description
 
 
 @app.route("/predict", methods=["POST"])
@@ -68,9 +59,6 @@ def predict():
         breed_name = class_names[predicted_class]
         breed_name_final = breed_name.split("-")[1]
         breed_description = scrape_dog_description(breed_name_final)
-        
-        if breed_description[0] == "Description not found.":
-            breed_description = ["Description not found for this breed."]
         
         return jsonify({"prediction": breed_name, "description": breed_description})
     
