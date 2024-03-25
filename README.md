@@ -5,6 +5,8 @@
 
 ![Python](https://img.shields.io/badge/python-v3.10%2B-blue)
 ![React](https://img.shields.io/badge/react-v18.2.66-blue)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Dheerajjha451/Meet_Your_Pet)
+![GitHub Release Date](https://img.shields.io/github/release-date/Dheerajjha451/Meet_Your_Pet?logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Dheerajjha451/Meet_Your_Pet?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Dheerajjha451/Meet_Your_Pet?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Dheerajjha451/Meet_Your_Pet?style=social)
