@@ -1,5 +1,5 @@
 # Contributing
-Thank you for considering contributing to Dog Breed Predictor! Please read the guidelines below to ensure smooth collaboration.
+Thank you for considering contributing to Meet_Your_Pet Please read the guidelines below to ensure smooth collaboration.
 
 Please note that we do not accept non-code pull requests.
 
