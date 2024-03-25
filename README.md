@@ -80,7 +80,6 @@ The Meet Your Pet project is started with the aim to match dogs with their best 
 
 At present, the Meet Your Pet project is equipped to predict the breed of a dog based on uploaded images and provide a short description of the breed. However, our journey doesn't end here. We are committed to enhancing the platform to facilitate connections between adoption centers and individuals seeking dogs. In the near future, we plan to implement features that will enable users to view adoption center information for dogs they are interested in. Through these enhancements, we aim to make the adoption process seamless and efficient, ensuring that every dog finds a loving and caring home. Stay tuned for updates as we work towards this goal!
 
----
 # Contributing
 Check out the [contributing guidelines](https://github.com/Dheerajjha451/Meet_Your_Pet/blob/main/CONTRIBUTING.md)
 
