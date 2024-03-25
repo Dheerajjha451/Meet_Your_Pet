@@ -15,7 +15,7 @@ export default function Navbar() {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/adoption" className="text-customBlue hover:underline font-semibold">
               Adoption
             </Link>
@@ -24,7 +24,7 @@ export default function Navbar() {
             <button className="bg-customButton text-customBlue font-semibold px-6 py-0 rounded-full transition duration-300 ease-in-out hover:shadow-lg">
               Login
             </button>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
