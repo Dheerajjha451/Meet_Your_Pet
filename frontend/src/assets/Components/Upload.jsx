@@ -1,6 +1,7 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpload } from '@fortawesome/free-solid-svg-icons'; 
+import dogDescriptions from '../../../dog_descriptions.json'
 
 function UploadImage() {
   const [file, setFile] = useState(null);
@@ -39,10 +40,11 @@ function UploadImage() {
       const breedName = data.prediction.split("-")[1]; 
       setPrediction(breedName);
   
-      if (data.description && Array.isArray(data.description)) {
-        setDescription(data.description.join("\n"));
+      const breedDescription = dogDescriptions[breedName];
+      if (breedDescription) {
+        setDescription(breedDescription);
       } else {
-        console.error("Unexpected format for description: ", data.description);
+        console.error("Description not found for breed: ", breedName);
       }
     } catch (error) {
       console.error("Error predicting: ", error);
@@ -92,11 +94,7 @@ function UploadImage() {
       {description && (
         <div>
           <h3 className="font-bold text-3xl mx-4 text-slate-950">Description:</h3>
-          <ul className="mx-4 text-customBlue">
-            {description.split("\n").map((line, index) => (
-              <li key={index}>{line}</li>
-            ))}
-          </ul>
+          <p className="mx-4 text-customBlue">{description}</p>
         </div>
       )}
     </div>
