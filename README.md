@@ -12,11 +12,19 @@
 ![GitHub forks](https://img.shields.io/github/forks/Dheerajjha451/Meet_Your_Pet?style=social)
 
 ## About
-Meet Your Pet is a `web application` powered by `machine learning` algorithms that predict the breed of a dog based on uploaded images. Whether you're curious about the any breed dog or want to identify the breed of a new rescue, Meet Your Pet offers a convenient and accurate solution.
+
+**Meet Your Pet** is not just an app, It's a bridge between loving homes and our furry friends waiting for their forever famillies. With the help of cutting edge technologies, our application offers a unique way to help a stray dog meet a heartwarming family.
+
+## How to Use?
+
+**Snap a Photo** Take a clear picture of the dog you're are curious about or you encountered on the street.
+**Upload and Predict** Upload the image to meet your pet and predict to know the breed and description of the dog.
+**Connect to Adoption Agencies** Several Adoption agencies will be listed with the dog available, Connect with them for the further proceedings.
 
 # Running Meet Your Pet
 
-**Meet Your Pet** consists of two main components: the backend and the frontend. The backend handles the machine learning algorithms and prediction logic, while the frontend provides the user interface for interacting with the system.
+**Meet Your Pet** is developed using React js for the frontend and Flask for the backend.
+The model is trained using transfer learning. MobilenetV2 Architecture was used.
 
 ## Running the Backend
 
@@ -67,22 +75,25 @@ npm install
 ```
 npm run dev
 ```
+
 # Screenshots
+
 ![Desktop](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/22c4a889-88ec-409f-bd99-6c1e260ff141)
 ![Desktop1](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/528605fe-cabc-4a4e-a705-108d2d307496)
 ![Desktop2](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/5a6fa828-cc75-427b-b545-9b6b30a69a06)
 
-
 ## Project Goal
-The Meet Your Pet project is started with the aim to match dogs with their best caretakers, bridging the gap between pets at different adoption centers and people seeking different breeds of dogs. By allowing users to upload images of dogs, the system predicts the breed of the dog and provides a short description. If the dog is available at any adoption center, the platform also offers information about the adoption center to potential dog owners. Through this process, Meet Your Pet strives to facilitate meaningful connections between dogs in need of homes and individuals eager to provide them with care and companionship.
+
+Meet Your Pet project aims to match dogs with their best caretakers, bridging the gap between pets at different adoption centers and people seeking different breeds of dogs. By allowing users to upload images of dogs, helps the user to know if the dog is good for them by knowing the breed of the dog and a small description about the features of the dog. If the dog is available at any adoption center, the platform also offers information about the adoption center to potential dog owners. Through this process, Meet Your Pet strives to facilitate meaningful connections between dogs in need of homes and individuals eager to provide them with care and companionship.
 
 ## Current Status and Future Plans
 
-At present, the Meet Your Pet project is equipped to predict the breed of a dog based on uploaded images and provide a short description of the breed. However, our journey doesn't end here. We are committed to enhancing the platform to facilitate connections between adoption centers and individuals seeking dogs. In the near future, we plan to implement features that will enable users to view adoption center information for dogs they are interested in. Through these enhancements, we aim to make the adoption process seamless and efficient, ensuring that every dog finds a loving and caring home. Stay tuned for updates as we work towards this goal!
+At present, the Meet Your Pet project is equipped to predict the breed of a dog based on uploaded images and provide a short description of the breed. However, our journey doesn't end here. Our aim to connect the users with the adoption centers is not yet fully implemented.We'll shortly implement it.Through these enhancements, we aim to make the adoption process seamless and efficient, ensuring that every dog finds a loving and caring home. Stay tuned for updates as we work towards this goal!
 
 # Contributing
+
 Check out the [contributing guidelines](https://github.com/Dheerajjha451/Meet_Your_Pet/blob/main/CONTRIBUTING.md)
 
 # License
-This project is licensed under the [License.](https://github.com/Dheerajjha451/Meet_Your_Pet/blob/main/LICENSE)
 
+This project is licensed under the [License.](https://github.com/Dheerajjha451/Meet_Your_Pet/blob/main/LICENSE)
