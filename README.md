@@ -23,8 +23,8 @@
 
 # Running Meet Your Pet
 
-**Meet Your Pet** is developed using React js for the frontend and Flask for the backend.
-The model is trained using transfer learning using the MobilenetV2 Architecture with an accuracy of 0.9853515625.
+**Meet Your Pet** is developed using React js for frontend and Flask for backend.
+The model is trained using transfer learning using the **MobilenetV2** Architecture with an accuracy of **0.9853515625**.
 
 ## Running the Backend
 
