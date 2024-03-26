@@ -17,14 +17,14 @@
 
 ## How to Use?
 
-**Snap a Photo** Take a clear picture of the dog you're are curious about or you encountered on the street.
-**Upload and Predict** Upload the image to meet your pet and predict to know the breed and description of the dog.
-**Connect to Adoption Agencies** Several Adoption agencies will be listed with the dog available, Connect with them for the further proceedings.
+**Snap a Photo**:- Take a clear picture of the dog you're are curious about or you encountered on the street.
+**Upload and Predict**:- Upload the image to meet your pet and predict to know the breed and description of the dog.
+**Connect to Adoption Agencies**:- Several Adoption agencies will be listed with the dog available, Connect with them for the further proceedings.
 
 # Running Meet Your Pet
 
 **Meet Your Pet** is developed using React js for the frontend and Flask for the backend.
-The model is trained using transfer learning. MobilenetV2 Architecture was used.
+The model is trained using transfer learning using the MobilenetV2 Architecture with an accuracy of 0.9853515625.
 
 ## Running the Backend
 
