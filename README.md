@@ -13,7 +13,7 @@
 
 ## About
 
-**Meet Your Pet** is not just an app, It's a bridge between loving homes and our furry friends waiting for their forever famillies. With the help of cutting edge technologies, our application offers a unique way to help a stray dog meet a heartwarming family.
+**Meet Your Pet** is not just a web application, It's a bridge between loving homes and our furry friends waiting for their forever famillies. With the help of cutting edge technologies, our application offers a unique way to help a stray dog meet a heartwarming family.
 
 ## How to Use?
 
