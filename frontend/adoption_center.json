@@ -1,0 +1,192 @@
+[
+  {
+    "NGO Name": "Paws of Love Dog Rescue",
+    "NGO Details": "Paws of Love Dog Rescue is a non-profit organization committed to rescuing and rehoming dogs in need. Our mission is to provide a safe haven for abandoned, abused, and neglected dogs, giving them a second chance at a happy life. We believe that every dog deserves a loving home, and we work tirelessly to match our furry friends with their perfect forever families.",
+    "NGO Photo": "paws_of_love.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Labrador Retriever"
+      },
+      {
+        "Dog Breed": "German Shepherd"
+      },
+      {
+        "Dog Breed": "Poodle"
+      },
+      {
+        "Dog Breed": "Beagle"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Happy Tails Animal Shelter",
+    "NGO Details": "Happy Tails Animal Shelter is a no-kill shelter dedicated to providing care and compassion to homeless dogs. Our shelter provides a safe and loving environment for dogs of all ages and breeds while they await their forever homes. We believe that every dog deserves a chance at happiness, and we strive to make that possible through our adoption and rehabilitation programs.",
+    "NGO Photo": "happy_tails.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Golden Retriever"
+      },
+      {
+        "Dog Breed": "Bulldog"
+      },
+      {
+        "Dog Breed": "Siberian Husky"
+      },
+      {
+        "Dog Breed": "Dachshund"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Woof Haven Rescue",
+    "NGO Details": "Woof Haven Rescue is dedicated to rescuing and rehoming dogs of all breeds. Our team of volunteers works tirelessly to provide medical care, training, and love to dogs in need. Through our adoption events and community outreach, we aim to raise awareness about the importance of pet adoption and responsible pet ownership.",
+    "NGO Photo": "woof_haven.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Boxer"
+      },
+      {
+        "Dog Breed": "Rottweiler"
+      },
+      {
+        "Dog Breed": "Shih Tzu"
+      },
+      {
+        "Dog Breed": "Chihuahua"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Rescue Rangers",
+    "NGO Details": "Rescue Rangers is a volunteer-based organization committed to rescuing, rehabilitating, and rehoming dogs in need. Our dedicated team of volunteers works tirelessly to provide medical care, foster homes, and training to dogs in our care. We believe that every dog deserves a chance at a loving home, and we are dedicated to making that a reality.",
+    "NGO Photo": "rescue_rangers.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Doberman Pinscher"
+      },
+      {
+        "Dog Breed": "Yorkshire Terrier"
+      },
+      {
+        "Dog Breed": "Great Dane"
+      },
+      {
+        "Dog Breed": "Australian Shepherd"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Second Chance Dog Rescue",
+    "NGO Details": "Second Chance Dog Rescue is dedicated to giving dogs a second chance at a happy and healthy life. We rescue dogs from overcrowded shelters and provide them with medical care, training, and love until they find their forever homes. Our goal is to make a positive impact on the lives of both dogs and adopters, creating lasting bonds of love and companionship.",
+    "NGO Photo": "second_chance.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Pug"
+      },
+      {
+        "Dog Breed": "Shetland Sheepdog"
+      },
+      {
+        "Dog Breed": "Cocker Spaniel"
+      },
+      {
+        "Dog Breed": "Border Collie"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Forever Friends Dog Rescue",
+    "NGO Details": "Forever Friends Dog Rescue is dedicated to rescuing and rehoming dogs of all breeds and sizes. Our mission is to find loving forever homes for every dog in our care, providing them with the love, care, and attention they deserve. We believe that every dog is deserving of a second chance, and we work tirelessly to make that a reality.",
+    "NGO Photo": "forever_friends.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Pomeranian"
+      },
+      {
+        "Dog Breed": "Boston Terrier"
+      },
+      {
+        "Dog Breed": "Basset Hound"
+      },
+      {
+        "Dog Breed": "Maltese"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Furry Friends Rescue",
+    "NGO Details": "Furry Friends Rescue is a non-profit organization dedicated to rescuing, fostering, and rehoming dogs in need. Our dedicated team of volunteers provides medical care, socialization, and love to dogs in our care. We believe that every dog deserves a loving home, and we are committed to finding the perfect match for each furry friend.",
+    "NGO Photo": "furry_friends.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Corgi"
+      },
+      {
+        "Dog Breed": "Bernese Mountain Dog"
+      },
+      {
+        "Dog Breed": "Papillon"
+      },
+      {
+        "Dog Breed": "Whippet"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Home for Paws",
+    "NGO Details": "Home for Paws is a foster-based rescue dedicated to finding loving homes for dogs in need. We rescue dogs from shelters and provide them with temporary foster care until they find their forever families. Our goal is to give each dog the love, care, and attention they need to thrive, while also educating the community about responsible pet ownership.",
+    "NGO Photo": "home_for_paws.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Chow Chow"
+      },
+      {
+        "Dog Breed": "Shiba Inu"
+      },
+      {
+        "Dog Breed": "English Bulldog"
+      },
+      {
+        "Dog Breed": "Italian Greyhound"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Loving Hearts Pet Rescue",
+    "NGO Details": "Loving Hearts Pet Rescue is dedicated to rescuing and rehoming dogs of all ages and breeds. Our mission is to provide a safe and loving environment for dogs in need, while also educating the community about the importance of pet adoption. Through our adoption events, volunteer programs, and community outreach, we aim to make a difference in the lives of dogs and their adopters.",
+    "NGO Photo": "loving_hearts.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Dalmatian"
+      },
+      {
+        "Dog Breed": "West Highland White Terrier"
+      },
+      {
+        "Dog Breed": "Miniature Schnauzer"
+      },
+      {
+        "Dog Breed": "Shih-Poo"
+      }
+    ]
+  },
+  {
+    "NGO Name": "Pawsitive Impact Rescue",
+    "NGO Details": "Pawsitive Impact Rescue is dedicated to making a positive impact in the lives of dogs in need. We rescue dogs from high-kill shelters, provide them with medical care and training, and find them loving forever homes. Our goal is to create lasting bonds of love and companionship between dogs and their adopters, while also raising awareness about the importance of pet adoption.",
+    "NGO Photo": "pawsitive_impact.jpg",
+    "Pets": [
+      {
+        "Dog Breed": "Bichon Frise"
+      },
+      {
+        "Dog Breed": "Pekingese"
+      },
+      {
+        "Dog Breed": "Bloodhound"
+      },
+      {
+        "Dog Breed": "Australian Cattle Dog"
+      }
+    ]
+  }
+]
