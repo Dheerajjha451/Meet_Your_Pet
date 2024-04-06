@@ -5,16 +5,16 @@
     "NGO Photo": "paws_of_love.jpg",
     "Pets": [
       {
-        "Dog Breed": "Labrador Retriever"
+        "Dog Breed": "Chihuahua"
       },
       {
-        "Dog Breed": "German Shepherd"
+        "Dog Breed": "beagle"
       },
       {
-        "Dog Breed": "Poodle"
+        "Dog Breed": "PoodNorwegian_elkhoundle"
       },
       {
-        "Dog Breed": "Beagle"
+        "Dog Breed": "Weimaraner"
       }
     ]
   },
@@ -24,16 +24,16 @@
     "NGO Photo": "happy_tails.jpg",
     "Pets": [
       {
-        "Dog Breed": "Golden Retriever"
+        "Dog Breed": "otterhound"
       },
       {
-        "Dog Breed": "Bulldog"
+        "Dog Breed": "English_foxhound"
       },
       {
-        "Dog Breed": "Siberian Husky"
+        "Dog Breed": "Border_terrier"
       },
       {
-        "Dog Breed": "Dachshund"
+        "Dog Breed": "Dandie_Dinmont"
       }
     ]
   },
@@ -43,16 +43,16 @@
     "NGO Photo": "woof_haven.jpg",
     "Pets": [
       {
-        "Dog Breed": "Boxer"
+        "Dog Breed": "clumber"
       },
       {
         "Dog Breed": "Rottweiler"
       },
       {
-        "Dog Breed": "Shih Tzu"
+        "Dog Breed": "boxer"
       },
       {
-        "Dog Breed": "Chihuahua"
+        "Dog Breed": "pug"
       }
     ]
   },
@@ -62,16 +62,16 @@
     "NGO Photo": "rescue_rangers.jpg",
     "Pets": [
       {
-        "Dog Breed": "Doberman Pinscher"
+        "Dog Breed": "keeshond"
       },
       {
         "Dog Breed": "Yorkshire Terrier"
       },
       {
-        "Dog Breed": "Great Dane"
+        "Dog Breed": "African_hunting_dog"
       },
       {
-        "Dog Breed": "Australian Shepherd"
+        "Dog Breed": "flat-coated_retriever"
       }
     ]
   },
@@ -81,16 +81,16 @@
     "NGO Photo": "second_chance.jpg",
     "Pets": [
       {
-        "Dog Breed": "Pug"
+        "Dog Breed": "bull_mastiff"
       },
       {
         "Dog Breed": "Shetland Sheepdog"
       },
       {
-        "Dog Breed": "Cocker Spaniel"
+        "Dog Breed": "Tibetan_mastiff"
       },
       {
-        "Dog Breed": "Border Collie"
+        "Dog Breed": "miniature_poodle"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "NGO Photo": "forever_friends.jpg",
     "Pets": [
       {
-        "Dog Breed": "Pomeranian"
+        "Dog Breed": "Samoyed"
       },
       {
-        "Dog Breed": "Boston Terrier"
+        "Dog Breed": "Great_Pyrenees"
       },
       {
-        "Dog Breed": "Basset Hound"
+        "Dog Breed": "Leonberg"
       },
       {
-        "Dog Breed": "Maltese"
+        "Dog Breed": "basenji"
       }
     ]
   },
@@ -119,16 +119,16 @@
     "NGO Photo": "furry_friends.jpg",
     "Pets": [
       {
-        "Dog Breed": "Corgi"
+        "Dog Breed": "Saint_Bernard"
       },
       {
-        "Dog Breed": "Bernese Mountain Dog"
+        "Dog Breed": "French_bulldog"
       },
       {
-        "Dog Breed": "Papillon"
+        "Dog Breed": "Appenzeller"
       },
       {
-        "Dog Breed": "Whippet"
+        "Dog Breed": "Bernese_mountain_dog"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "NGO Photo": "home_for_paws.jpg",
     "Pets": [
       {
-        "Dog Breed": "Chow Chow"
+        "Dog Breed": "Rottweiler"
       },
       {
-        "Dog Breed": "Shiba Inu"
+        "Dog Breed": "Shetland_sheepdog"
       },
       {
-        "Dog Breed": "English Bulldog"
+        "Dog Breed": "Old_English_sheepdog"
       },
       {
-        "Dog Breed": "Italian Greyhound"
+        "Dog Breed": "kelpie"
       }
     ]
   },
@@ -157,16 +157,16 @@
     "NGO Photo": "loving_hearts.jpg",
     "Pets": [
       {
-        "Dog Breed": "Dalmatian"
+        "Dog Breed": "Sussex_spaniel"
       },
       {
-        "Dog Breed": "West Highland White Terrier"
+        "Dog Breed": "English_springer"
       },
       {
-        "Dog Breed": "Miniature Schnauzer"
+        "Dog Breed": "soft-coated_wheaten_terrier"
       },
       {
-        "Dog Breed": "Shih-Poo"
+        "Dog Breed": "giant_schnauzer"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "NGO Photo": "pawsitive_impact.jpg",
     "Pets": [
       {
-        "Dog Breed": "Bichon Frise"
+        "Dog Breed": "Australian_terrier"
       },
       {
-        "Dog Breed": "Pekingese"
+        "Dog Breed": "Airedale"
       },
       {
-        "Dog Breed": "Bloodhound"
+        "Dog Breed": "Lakeland_terrier"
       },
       {
-        "Dog Breed": "Australian Cattle Dog"
+        "Dog Breed": "Norfolk_terrier"
       }
     ]
   }
