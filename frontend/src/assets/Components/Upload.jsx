@@ -28,7 +28,7 @@ function UploadImage() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch("https://meet-your-pet-whok.vercel.app/predict", {
+      const response = await fetch("https://meet-your-pet-i5zf.vercel.app/predict", {
         method: "POST",
         body: formData,
       });
