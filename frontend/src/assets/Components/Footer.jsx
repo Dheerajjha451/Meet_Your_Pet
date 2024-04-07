@@ -1,12 +1,11 @@
-
 const Footer = () => {
-    return (
-      <footer className=" text-customBlue text-center py-4">
-        <p>&copy; All rights reserved.</p>
-        <p>Build by Team Hokage</p>
-      </footer>
-    );
-  };
-  
-  export default Footer;
-  
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="bg-gradient-to-r from-customBlue to-customButton text-white text-center py-4">
+      <p>&copy; {currentYear} All rights reserved.</p>
+    </footer>
+  );
+};
+
+export default Footer;
