@@ -27,10 +27,10 @@ function UploadImage() {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      const response = await fetch("https://backendmyp.onrender.com/predict", {
+      const response = await fetch("http://127.0.0.1:5000/predict", {
         method: "POST",
         body: formData,
-      });    
+      });
 
       if (!response.ok) {
         console.error("Server response was not ok", response);
