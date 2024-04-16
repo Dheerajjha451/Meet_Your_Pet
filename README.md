@@ -77,10 +77,14 @@ npm run dev
 ```
 
 # Screenshots
+![Screenshot from 2024-04-16 06-59-48](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/5968e0e9-847c-496a-b47b-f9c59c1dc5da)
+![Screenshot from 2024-04-16 07-01-22](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/d7889f24-ea85-4ee1-ad26-0331789e8ca6)
+![Screenshot from 2024-04-16 07-01-31](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/fdf6c2b3-d4cc-4d7e-afe5-f5b0bdefecf1)
 
-![Desktop](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/22c4a889-88ec-409f-bd99-6c1e260ff141)
-![Desktop1](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/528605fe-cabc-4a4e-a705-108d2d307496)
-![Desktop2](https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/5a6fa828-cc75-427b-b545-9b6b30a69a06)
+
+https://github.com/Dheerajjha451/Meet_Your_Pet/assets/106474979/5f2c5405-6bd1-431b-af68-6cf737516664
+
+
 
 ## Project Goal
 
