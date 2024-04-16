@@ -27,7 +27,7 @@ function UploadImage() {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      const response = await fetch("http://127.0.0.1:5000/predict", {
+      const response = await fetch("https://97b8-43-247-41-48.ngrok-free.app/predict", {
         method: "POST",
         body: formData,
       });
@@ -107,18 +107,29 @@ function UploadImage() {
         </div>
       )}
       {adoptionCenter && adoptionCenter.length > 0 && (
-        <div>
-          <h3 className="font-bold text-3xl mx-4 text-slate-950 text-center">Available at Adoption Center</h3>
-          <ul className="mx-4">
-            {adoptionCenter.map((center, index) => (
-              <li key={index}>
-                <div className="text-black ">NGO Name: {center['NGO Name']}</div>
-                <div className="text-black ">NGO Details: {center['NGO Details']}</div>
-                <div className="text-black ">Contact Details: {center['contact']}</div>
-              </li>
-            ))}
-          </ul>
-        </div>
+      <div>
+      <h3 className="font-bold text-3xl mx-4 text-slate-950 text-center">Available at Adoption Center</h3>
+      <ul className="mx-4">
+        {adoptionCenter.map((center, index) => (
+          <li key={index}>
+            <img 
+              src={center['NGO Photo']} 
+              alt={center['NGO Name']} 
+              style={{ width: '200px', height: '200px', objectFit: 'cover' }}
+            />
+            <div className="text-black font-sans mt-2">
+              <span className="font-bold">NGO Name:</span> {center['NGO Name']}
+            </div>
+            <div className="text-black font-sans">
+              <span className="font-bold">NGO Details:</span> {center['NGO Details']}
+            </div>
+            <div className="text-black font-sans">
+              <span className="font-bold">Contact Details:</span> {center['contact']}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
       )}
       {adoptionCenter && adoptionCenter.length === 0 && (
         <div className="text-center text-customBlue mx-4 font-bold">Currently not present at any adoption center.</div>
